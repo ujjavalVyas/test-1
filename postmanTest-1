@@ -2,6 +2,6 @@ stages:
     -test
 postman_tests:
      stage: test
-     image: C:\Users\ujjaval.vyas\Pictures\test image.png
+     image: image.png
      script:
       -newman --version
